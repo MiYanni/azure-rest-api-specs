@@ -235,12 +235,15 @@
       "type": "object",
       "properties": {
         "id": {
-          "type": "string"
+          "type": "string",
+          "description": "The id of the schema."
         }
-      }
+      },
+      "description": "The id of a Schema Registry schema."
     },
     "ServiceErrorResponse": {
-      "type": "string"
+      "type": "string",
+      "description": "An error from the Schema Registry service."
     }
   },
   "parameters": {
